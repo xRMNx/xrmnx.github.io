@@ -1,5 +1,8 @@
 #!/bin/bash  
-cd ~/xrmnx.github.io
+
+#param([string]$folder)
+
+cd "$1"
 git pull
 git add .
 # read -p "Commit description: " desc
