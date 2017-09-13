@@ -9,7 +9,3 @@ for file in "$1"/*
     done
 
 rm -rf "$2"/.html
-
-
-
-#		command = "pandoc #{inputPath}\/#{name} -o #{outputPath}\/#{base}#{extTo} && rm -rf #{inputPath}\/#{name}"
