@@ -8,6 +8,8 @@ for file in "$1"/*
       fi
     done
 
+rm -rf "$2"/.html
+
 
 
 #		command = "pandoc #{inputPath}\/#{name} -o #{outputPath}\/#{base}#{extTo} && rm -rf #{inputPath}\/#{name}"
